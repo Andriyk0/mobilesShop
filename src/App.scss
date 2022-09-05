@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  max-width: 1440px;
+  margin: auto;
+  font-family: system-ui;
+}
+
+[_ngcontent-uja-c67]::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+[_ngcontent-uja-c67]::-webkit-scrollbar-thumb {
+  background-color: #333;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+}

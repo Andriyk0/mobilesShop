@@ -1,0 +1,43 @@
+.footer {
+  padding: 32px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #c4cbd1;
+
+  &__logo {
+    padding: 20px;
+    margin: -20px;
+  }
+
+  &__link {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: 0.04em;
+    padding: 0 32px;
+    text-decoration: none;
+    color: #89939A;
+  }
+
+  &__back-to-top {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #89939A;
+  }
+
+  &__top-link {
+    padding: 10px 13px;
+    border: 1px solid #89939A;
+    margin-left: 10px;
+    background-color: white;
+    cursor: pointer;
+
+    &:hover {
+      border-color: black;
+    }
+  }
+}

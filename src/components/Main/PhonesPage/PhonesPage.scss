@@ -1,0 +1,151 @@
+.phones {
+  padding: 24px 152px;
+
+  &__path_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  &__home_img {
+    margin-right: 14px;
+    cursor: pointer;
+  }
+
+  &__right_img {
+    margin-right: 13px;
+  }
+
+  &__path {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #89939A;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    color: #313237;
+    margin-bottom: 8px;
+  }
+
+  &__numberOfPhones {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #89939A;
+    margin-bottom: 40px;
+  }
+
+  &__filters {
+    display: flex;
+    margin-bottom: 24px;
+  }
+
+  &__sort {
+    display: flex;
+    margin-right: 16px;
+    flex-direction: column;
+  }
+
+  &__label {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #89939A;
+    margin-bottom: 5px;
+  }
+
+  &__select_sort {
+    width: 175px;
+    height: 40px;
+    border: 1px solid #B4BDC4;
+    padding: 0 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #313237;
+  }
+
+  &__select_item {
+    width: 130px;
+    height: 40px;
+    border: 1px solid #B4BDC4;
+    padding: 0 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #313237;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 40px;
+  margin-bottom: 40px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+
+  &__page {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #E2E6E9;
+    background-color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 4px;
+
+    &:hover {
+      background-color: #89939A;
+    }
+  }
+
+  &__page-active {
+    background: #313237;
+    color: white;
+  }
+
+  &__next_button {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #b4bdc4;
+    background-color: white;
+    margin: 0 8px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #89939A;
+    }
+  }
+
+  &__prev_button {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #b4bdc4;
+    background-color: white;
+    margin: 0 10px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #89939A;
+    }
+  }
+}
+
+.noProduct {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 150px;
+}

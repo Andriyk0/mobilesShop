@@ -1,0 +1,84 @@
+.navbar {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  border-bottom: 1px solid #c4cbd1;
+
+  &__logo {
+    margin-right: 65px;
+  }
+
+  &__link {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: 0.04em;
+    margin-right: 64px;
+    padding: 22px 0;
+    color: #89939A;
+    height: 100%;
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  &__is-active::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #313237;
+    border-radius: 8px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  &__link-active {
+    color: #313237;
+  }
+
+  &__right-box {
+    margin-top: -2px;
+  }
+
+  &__liked {
+    padding: 22px 25px;
+    position: relative;
+    border: 1px solid #c4cbd1;
+
+    &:hover {
+      border-color: #313237;
+    }
+  }
+
+  &__checkout {
+    position: relative;
+    padding: 22px 25px;
+    border: 1px solid #c4cbd1;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+
+    &:hover {
+      border: 1px solid #313237;
+    }
+  }
+}
+
+.numberOfFavorite {
+  position: absolute;
+  width: 14px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 14px;
+  font-weight: 600;
+  font-size: 9px;
+  background-color: #EB5757;
+  color: white;
+  top: 26%;
+  left: 57%;
+}
